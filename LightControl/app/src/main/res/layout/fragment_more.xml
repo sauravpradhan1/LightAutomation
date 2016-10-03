@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lightcontrol.FragmentMore">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="156dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Centralite
+        \n Hawking Technologies
+        \n Jasco
+        \n Lutron
+        \n Leviton
+        \n LiteTouch Inc.
+        \n Insteon
+        "
+        android:textSize="16dp"
+        android:id="@+id/textView10"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="203dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" AMX
+        \n Control4
+        \n Crestron
+        \n HomeLogic
+        \n Colorado vNet
+        \n Home Automation Inc.
+        \n Vantage Control
+        \n Zenpanion
+        \n Exceptional Innovation
+        "
+        android:textSize="16dp"
+        android:id="@+id/textView10"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="20dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="right|center_vertical"
+        android:background="#c1c1c1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Home Automation Companies"
+            android:textSize="18dp"
+            android:id="@+id/textView13"
+            android:layout_gravity="left|center_vertical" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#c1c1c1"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lighting Control Systems"
+            android:textSize="18dp"
+            android:id="@+id/textView9"
+            android:layout_gravity="left|center_vertical" />
+    </FrameLayout>
+
+
+</FrameLayout>

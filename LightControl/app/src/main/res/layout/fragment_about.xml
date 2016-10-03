@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lightcontrol.About">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView7"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/logo"
+        android:layout_marginTop="1dp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="left|center_vertical"
+        android:background="#c1c1c1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About us"
+            android:textSize="18dp"
+            android:id="@+id/textView21"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Home Automation Light Control"
+        android:id="@+id/textView22"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="V 2.0"
+        android:id="@+id/textView23"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView20"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="&quot;Home Automation Light Control&quot;  is developed to provide the user to have the ability to control the light system remotely throught the android device. Any harm done through this app will not be held responsible to us.The user must use the app knowing and understanding the risk."
+        android:textSize="16dp"
+        android:layout_marginBottom="75dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Developed by Saurav Pradhan"
+        android:id="@+id/textView24"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_marginBottom="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Email: eternal21saurav@gmail.com"
+        android:id="@+id/textView25"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp" />
+
+</FrameLayout>
